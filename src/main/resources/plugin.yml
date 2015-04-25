@@ -1,0 +1,11 @@
+name: NodeShop
+main: me.nerdwithbow.nodeshop.NodeShop
+description: Allows the purchasing of permissions.
+version: 0.0.1
+depend: [Vault]
+# add commands
+commands:
+    nodeshop:
+        description: For all NodeShop related things.
+        usage: /<command> <list|info <item>|buy <item>|add <name> <permission> <price> <description>|delete <item>|edit <item> <column> <value>>
+        aliases: nshop
